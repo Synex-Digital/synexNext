@@ -44,7 +44,12 @@ module.exports = {
       },
       boxShadow: {
         "404btn": "0 0 15px 0px rgba(194, 232, 18, 0.05)",
+        "devHover": "5px 5px 20px 5px rgba(194, 232, 18, 0.2)",
       },
+      scale: {
+        '190': '1.90',
+        '205': '2.05',
+      }
     },
   },
   plugins: [],
