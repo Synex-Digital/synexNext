@@ -53,6 +53,7 @@ module.exports = {
         devHover: "5px 5px 20px 5px rgba(194, 232, 18, 0.2)",
         custom: 'rgba(194, 232, 18, .2) 0 -25px 18px -14px inset, rgba(194, 232, 18, .15) 0 1px 2px, rgba(194, 232, 18, .15) 0 2px 4px, rgba(194, 232, 18, .15) 0 4px 8px, rgba(194, 232, 18, .15) 0 8px 16px, rgba(194, 232, 18, .15) 0 16px 32px',
         'custom-hover': 'rgba(194, 232, 18,.35) 0 -25px 18px -14px inset, rgba(194, 232, 18,.25) 0 1px 2px, rgba(194, 232, 18,.25) 0 2px 4px, rgba(194, 232, 18,.25) 0 4px 8px, rgba(194, 232, 18,.25) 0 8px 16px, rgba(194, 232, 18,.25) 0 16px 32px',
+        glow: " 0 0 40px 30px #c2e812, 0 0 100px 40px #c2e812, 0 0 120px 90px #c2e812",
       },
       
       scale: {

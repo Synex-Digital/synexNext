@@ -17,8 +17,8 @@ const Navbar = () => {
   return (
     <nav
       className={`${
-        isactive ? "bg-theme shadow-lg" : "bg-[#1d2934] h-dvh"
-      } fixed lg:static  w-full z-[9999] `}
+        isactive ? "shadow-lg" : "h-dvh"
+      } fixed w-full z-[9999]`}
     >
       <div className="container mx-auto py-3 px-2 flex justify-between items-center max-lg:relative">
         <Link href={"/"}>
@@ -174,7 +174,7 @@ const Navbar = () => {
           </ul>
         )}
 
-        <CustomButton btnTitle="Let's Talk" href="#"/>
+        <CustomButton className="hidden lg:block" btnTitle="Let's Talk" href="#"/>
 
         <div id="backward" className="lg:hidden">
           {isactive ? (

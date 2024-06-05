@@ -2,11 +2,12 @@ import { CustomButton } from "@/app/core";
 import recordimg from "/public/assets/banner.png";
 import Image from "next/image";
 import Link from "next/link";
+import BgGlowEffect from "@/app/core/BgGlowEffect/BgGlowEffect";
 
 const Banner = () => {
   return (
     <>
-      <section className="pb-10">
+      <section className="h-dvh flex items-center">
         <div className="container mx-auto px-2 lg:py-16">
           <div className="grid grid-cols-12 gap-8">
             <div className="col-span-6 flex justify-center flex-col">
