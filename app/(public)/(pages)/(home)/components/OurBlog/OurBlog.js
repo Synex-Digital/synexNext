@@ -2,6 +2,7 @@ import { AosAnimation, Heading } from "@/app/components";
 import Image from "next/image";
 import blogimg from "/public/assets/blogimg.webp";
 import Link from "next/link";
+import { CustomButton } from "@/app/core";
 
 
 const OurBlog = () => {
@@ -156,12 +157,7 @@ const OurBlog = () => {
               </div>
             </div>
             <div className=" w-full text-center mt-16">
-              <Link
-                href={"#"}
-                className="text-center bg-primary hover:bg-[#bcdd2d] font-medium text-lg px-8 py-2 rounded-full"
-              >
-                View More
-              </Link>
+              <CustomButton btnTitle="View More" href="/blog" />
             </div>
           </div>
         </section>

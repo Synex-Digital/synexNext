@@ -14,12 +14,14 @@ const OurServices = async () => {
             title="Our Services"
             subtitle="Elevating Your Business with Innovative Services"
           />
-          <div className="flex justify-between flex-wrap ">
+
+          {/* older cards */}
+          {/* <div className="flex justify-between flex-wrap ">
             <ReactSlick className="w-full h-full ">
               {data_services.services.map((item, index) => (
                 <div
                   key={index}
-                  className="cursor-pointer !w-[95%] !mx-auto !block py-7"
+                  className="cursor-pointer !w-[95%] !mx-auto !block py-5"
                 >
                   <Reacttilt>
                     <Link href={`/services/${item.slugs}`}>
@@ -44,6 +46,13 @@ const OurServices = async () => {
                 </div>
               ))}
             </ReactSlick>
+          </div> */}
+
+          {/* new design of cards */}
+          <div className="grid grid-cols-3 gap-5">
+            <div className="col-span-1 h-96 rounded-xl bg-white"></div>
+            <div className="col-span-1 h-96 rounded-xl bg-white"></div>
+            <div className="col-span-1 h-96 rounded-xl bg-white"></div>
           </div>
         </div>
       </section>

@@ -78,8 +78,9 @@ export default async function Projects() {
                         our previous clients.
                     </p>
                     <div className="mt-16 flex flex-wrap xl:gap-5 gap-4 justify-center mb-20">
-                        {project_data.projects.map((item) => (
+                        {project_data.projects.map((item, index) => (
                             <div
+                                key={index}
                                 id="small1overlaydiv"
                                 className="group lg:w-[32%]  rounded-xl sm:w-[48%] w-full overflow-hidden relative "
                             >

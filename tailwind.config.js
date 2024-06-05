@@ -30,6 +30,12 @@ module.exports = {
         xl: "1280px",
         "2xl": "1536px",
       },
+      fontFamily: {
+        pops: ["Poppins", "sans-serif"],
+      },
+      fontSize: {
+        "5.5xl": "3.5rem",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -44,12 +50,15 @@ module.exports = {
       },
       boxShadow: {
         "404btn": "0 0 15px 0px rgba(194, 232, 18, 0.05)",
-        "devHover": "5px 5px 20px 5px rgba(194, 232, 18, 0.2)",
+        devHover: "5px 5px 20px 5px rgba(194, 232, 18, 0.2)",
+        custom: 'rgba(194, 232, 18, .2) 0 -25px 18px -14px inset, rgba(194, 232, 18, .15) 0 1px 2px, rgba(194, 232, 18, .15) 0 2px 4px, rgba(194, 232, 18, .15) 0 4px 8px, rgba(194, 232, 18, .15) 0 8px 16px, rgba(194, 232, 18, .15) 0 16px 32px',
+        'custom-hover': 'rgba(194, 232, 18,.35) 0 -25px 18px -14px inset, rgba(194, 232, 18,.25) 0 1px 2px, rgba(194, 232, 18,.25) 0 2px 4px, rgba(194, 232, 18,.25) 0 4px 8px, rgba(194, 232, 18,.25) 0 8px 16px, rgba(194, 232, 18,.25) 0 16px 32px',
       },
+      
       scale: {
-        '190': '1.90',
-        '205': '2.05',
-      }
+        170: "1.70",
+        205: "2.05",
+      },
     },
   },
   plugins: [],

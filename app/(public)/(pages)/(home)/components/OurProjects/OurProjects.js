@@ -2,11 +2,12 @@ import { Heading, TiltAnimation } from "@/app/components";
 import Image from "next/image";
 import recordimg from "/public/assets/thumbBody.jpg";
 import Link from "next/link";
+import { CustomButton } from "@/app/core";
 
 const OurProjects = () => {
   return (
     <>
-      <section>
+      <section className="pt-14">
         <div className="container mx-auto px-2">
           <Heading
             title="Our Projects"
@@ -133,12 +134,7 @@ const OurProjects = () => {
               </TiltAnimation>
             </div>
             <div className=" w-full text-center mt-16">
-              <Link
-                href={"#"}
-                className="text-center bg-primary hover:bg-[#bcdd2d] font-medium text-lg px-8 py-2 rounded-full"
-              >
-                View More
-              </Link>
+              <CustomButton btnTitle="View More" href="#"/>
             </div>
           </div>
         </div>
