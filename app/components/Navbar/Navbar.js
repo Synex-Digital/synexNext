@@ -17,8 +17,8 @@ const Navbar = () => {
   return (
     <nav
       className={`${
-        isactive ? "shadow-lg" : "h-dvh"
-      } fixed w-full z-[9999]`}
+        isactive ? "shadow-md" : "h-dvh"
+      } fixed w-full z-[9999] bg-body`}
     >
       <div className="container mx-auto py-3 px-2 flex justify-between items-center max-lg:relative">
         <Link href={"/"}>

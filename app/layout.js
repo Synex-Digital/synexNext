@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`${intertight.className} !font-pops`}>
+            <body className={`${intertight.className} !font-pops bg-body`}>
                 {children}
             </body>
         </html>

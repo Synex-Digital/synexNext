@@ -1,4 +1,5 @@
 import { Heading, ReactSlick, Reacttilt } from "@/app/components";
+import { ServiceCard } from "@/app/core";
 import getAllServices from "@/lio/getAllServices";
 import Image from "next/image";
 import Link from "next/link";
@@ -50,7 +51,9 @@ const OurServices = async () => {
 
           {/* new design of cards */}
           <div className="grid grid-cols-3 gap-5">
-            <div className="col-span-1 h-96 rounded-xl bg-white"></div>
+            {/* <div className="col-span-1 h-96 rounded-xl bg-white"> */}
+              <ServiceCard />
+            {/* </div> */}
             <div className="col-span-1 h-96 rounded-xl bg-white"></div>
             <div className="col-span-1 h-96 rounded-xl bg-white"></div>
           </div>

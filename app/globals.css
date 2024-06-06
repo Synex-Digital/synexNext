@@ -18,59 +18,6 @@
   }
 }
 
-/* old bg color */
-body {
-  background: hsl(285, 84%, 12%);
-  background: linear-gradient(225deg, rgb(43, 5, 56) 0%, rgb(14, 5, 25) 100%);
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(285, 83%, 12%, 1) 0%,
-    hsla(265, 66%, 6%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    225deg,
-    hsla(285, 83%, 12%, 1) 0%,
-    hsla(265, 66%, 6%, 1) 100%
-  );
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2A0536", endColorstr="#0D0518", GradientType=1 );
-  background-repeat: no-repeat;
-}
-
-/* new css 1 */
-/* body{
-  background: #221b50;
-
-  background: linear-gradient(
-    71deg,
-    hsla(248, 50%, 21%, 1) 8%,
-    hsla(244, 37%, 46%, 1) 44%,
-    hsla(244, 37%, 46%, 1) 52%,
-    hsla(245, 62%, 39%, 1) 94%
-  );
-
-  background: -moz-linear-gradient(
-    71deg,
-    hsla(248, 50%, 21%, 1) 8%,
-    hsla(244, 37%, 46%, 1) 44%,
-    hsla(244, 37%, 46%, 1) 52%,
-    hsla(245, 62%, 39%, 1) 94%
-  );
-
-  background: -webkit-linear-gradient(
-    71deg,
-    hsla(248, 50%, 21%, 1) 8%,
-    hsla(244, 37%, 46%, 1) 44%,
-    hsla(244, 37%, 46%, 1) 52%,
-    hsla(245, 62%, 39%, 1) 94%
-  );
-} */
-
-/* new css 2 */
-/* body {
-  background: #151515;
-} */
-/* -------------------------- */
-
 ::-moz-selection,
 ::selection {
   background: #c2e812;
