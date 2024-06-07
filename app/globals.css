@@ -18,7 +18,10 @@
   }
 }
 
-::-moz-selection,
+::-moz-selection {
+  background: #c2e812;
+  color: black;
+}
 ::selection {
   background: #c2e812;
   color: black;

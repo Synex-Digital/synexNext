@@ -1,7 +1,4 @@
-import { Inter_Tight } from "next/font/google";
 import "./globals.css";
-
-const intertight = Inter_Tight({ subsets: ["latin"] });
 
 export const metadata = {
     title: "Synex Digital",
@@ -12,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`${intertight.className} !font-pops bg-body`}>
+            <body className={`font-pops bg-body`}>
                 {children}
             </body>
         </html>

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
-import logo from "/public/assets/Logo.svg";
+import logo from "/public/assets/whiteLogo.png";
 import Link from "next/link";
 import { HiMiniBars3CenterLeft } from "react-icons/hi2";
 import { MdOutlineClose, MdArrowDropDown } from "react-icons/md";
