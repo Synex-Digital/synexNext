@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body className={`font-pops bg-body`}>
+            <body className={`font-pops bg-body overflow-x-hidden`}>
                 {children}
             </body>
         </html>

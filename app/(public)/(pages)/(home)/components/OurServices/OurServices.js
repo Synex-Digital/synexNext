@@ -17,7 +17,7 @@ const OurServices = async () => {
           />
 
           {/* older cards */}
-          {/* <div className="flex justify-between flex-wrap ">
+          <div className="flex justify-between flex-wrap ">
             <ReactSlick className="w-full h-full ">
               {data_services.services.map((item, index) => (
                 <div
@@ -47,15 +47,13 @@ const OurServices = async () => {
                 </div>
               ))}
             </ReactSlick>
-          </div> */}
+          </div>
 
           {/* new design of cards */}
           <div className="grid grid-cols-3 gap-5">
-            {/* <div className="col-span-1 h-96 rounded-xl bg-white"> */}
-              <ServiceCard />
-            {/* </div> */}
-            <div className="col-span-1 h-96 rounded-xl bg-white"></div>
-            <div className="col-span-1 h-96 rounded-xl bg-white"></div>
+              {data_services?.services?.map((items, index) => (
+                <ServiceCard key={index} items={items} />
+              ))}
           </div>
         </div>
       </section>
