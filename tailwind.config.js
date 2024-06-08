@@ -40,6 +40,8 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "waveAnimation": "url('/assets/wave_intersect.svg')",
+        "waveAnimationBack": "url('/assets/wave_intersect2.svg')",
       },
       colors: {
         body: "#151515",
@@ -53,7 +55,6 @@ module.exports = {
         devHover: "5px 5px 20px 5px rgba(194, 232, 18, 0.2)",
         glow: " 0 0 40px 30px #c2e812, 0 0 100px 40px #c2e812, 0 0 120px 90px #c2e812",
       },
-      
       scale: {
         170: "1.70",
         205: "2.05",
